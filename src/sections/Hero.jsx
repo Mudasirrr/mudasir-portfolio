@@ -35,6 +35,7 @@ export default function Hero() {
               <a href="#contact" className={styles.btnPrimary}>Get In Touch</a>
               <a href="#experience" className={styles.btnSecondary}>View Experience</a>
               <a href={personal.github} target="_blank" rel="noopener noreferrer" className={styles.btnGhost}>GitHub ↗</a>
+              <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className={styles.btnGhost}>Linkedin ↗</a>
             </div>
           </div>
 
