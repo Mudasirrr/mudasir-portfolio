@@ -111,8 +111,8 @@ export const education = [
     institution: "Victoria Institute of Technology (VIT)",
     location: "Melbourne, Australia",
     period: "2024 – Mar 2026",
-    status: "In Progress",
-    detail: "Specialisation in Cybersecurity — network security, digital forensics, and information systems governance.",
+    status: "Graduated",
+    detail: "Specialisation in Cybersecurity and Leadership— network security, digital forensics, and information systems governance.",
   },
   {
     degree: "Bachelor of Software Engineering",

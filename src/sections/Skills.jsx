@@ -39,8 +39,8 @@ export default function Skills() {
           <SkillGroup title="Technical" items={skills.technical} accent="#3b7dd8" />
           <div className={`card ${styles.group}`}>
             <div className={styles.groupHeader}>
-              <span className={styles.groupIcon} style={{ background: '#1d9e7518', color: '#1d9e75' }}>✦</span>
-              <h3 className={styles.groupTitle}>Certifications</h3>
+              <span className={styles.groupIcon} style={{ background: '#1d9e7518', color: '#9b1313' }}>✦</span>
+              <h3 className={styles.groupTitle}>Certifications </h3>
             </div>
             <ul className={styles.certList}>
               {skills.certifications.map(c => (
