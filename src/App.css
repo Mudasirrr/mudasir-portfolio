@@ -1,0 +1,85 @@
+/* Section shared styles */
+section {
+  padding: 7rem 0;
+  position: relative;
+}
+
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--gold);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.section-sub {
+  font-size: 1.05rem;
+  color: var(--text2);
+  max-width: 560px;
+  line-height: 1.75;
+}
+
+/* Gold accent line */
+.accent-line {
+  width: 48px;
+  height: 3px;
+  background: var(--gold);
+  margin-bottom: 1.5rem;
+  border-radius: 2px;
+}
+
+/* Card base */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 1.75rem;
+  transition: border-color 0.25s, transform 0.25s;
+}
+.card:hover {
+  border-color: var(--border2);
+  transform: translateY(-3px);
+}
+
+/* Tag / chip */
+.tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 3px 10px;
+  border-radius: 100px;
+  background: rgba(200,151,58,0.12);
+  color: var(--gold2);
+  border: 1px solid rgba(200,151,58,0.25);
+  letter-spacing: 0.05em;
+}
+
+/* Grid helpers */
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+
+@media (max-width: 900px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  section { padding: 5rem 0; }
+}
+
+/* Scroll reveal helper */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
