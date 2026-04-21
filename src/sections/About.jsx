@@ -10,7 +10,7 @@ export default function About() {
         <div className={`reveal ${styles.left}`} ref={ref}>
           <span className="section-label">About Me</span>
           <div className="accent-line" />
-          <h2 className="section-title">Cross-Domain<br />Leader &amp; Builder</h2>
+          <h2 className="section-title">Cross-Domain<br />Leader &amp; IT Specialization</h2>
           <p className="section-sub">Operations precision. Technical depth. One career.</p>
         </div>
         <div className={styles.right}>

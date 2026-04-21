@@ -4,7 +4,7 @@ export const personal = {
   name: "Mudasir Hussain",
   title: "Operations & Technology Leader",
   tagline: "Where logistics precision meets digital innovation.",
-  bio: `I lead people, processes, and technology — simultaneously. As Yard & Transport Manager and HSE Lead at WMA Scaffolding, I direct end-to-end logistics across multiple Victorian construction sites while enforcing WorkSafe compliance as the primary safety authority.\n\nWhat sets me apart is the rare combination of operational depth and technical breadth. I hold a Bachelor of Software Engineering, am completing a Master of IT in Cybersecurity (VIT, 2026), and specialise in the MERN Stack and Ethereum Blockchain. Whether managing a high-throughput yard operation or architecting a smart contract — I bring the same disciplined, results-first mindset.`,
+  bio: `I lead people, processes, and technology — simultaneously. As Yard & Transport Manager and HSE Lead at WMA Scaffolding, I direct end-to-end logistics across multiple Victorian construction sites while enforcing WorkSafe compliance as the primary safety authority.\n\nWhat sets me apart is the rare combination of operational depth and technical breadth. I hold a Bachelor of Software Engineering, graduated as Master of IT in Cybersecurity (VIT, 2026), certified with NEBOSH (UK based) and specialise in the MERN Stack and Ethereum Blockchain. Whether managing a high-throughput yard operation or architecting a smart contract — I bring the same disciplined, results-first mindset.`,
   location: "Melbourne, VIC, Australia",
   email: "hmudasir714@gmail.com",
   linkedin: "https://linkedin.com/in/mudasirrr",
@@ -21,21 +21,25 @@ export const metrics = [
 
 export const skills = {
   leadership: [
-    "Operations Management", "Team Leadership", "Logistics & Fleet Management",
+    "Operations Management", "Team Leadership", "Logistics & Fleet Management", "Communication Skill",
     "HSE Leadership", "Risk Assessment", "WorkSafe / Aramco Compliance",
     "Project Management", "Process Improvement", "Document Control",
   ],
   technical: [
-    "MERN Stack (MongoDB, Express, React, Node)", "Ethereum & Solidity",
+    "Window, Linux and Mac OS,  Computer Programming, MERN Stack (MongoDB, Express, React, Node)", "Ethereum & Solidity",
     "Smart Contracts & DApps", "Cybersecurity & Network Security",
     "Python", "UML Design", "Git & Version Control", "Microsoft Office Suite",
   ],
   certifications: [
-    { name: "NEBOSH IGC", year: "2022" },
+    { name: "Licence to perform High Risk Work (Worksafe Vic)", year: "2025" },
+    { name: "NEBOSH IGC (UK based) for Health, Safety and Environment career", year: "2022" },
+    {name:"The Manager's Toolkit: A Practical Guide to Handling People at Work", year: "2022"},
     { name: "ISO 14001", year: "2022" },
     { name: "Certified Blockchain Developer", year: "2023" },
     { name: "Full-Stack React Specialisation", year: "2022" },
     { name: "Blockchain Specialisation (Coursera)", year: "2022" },
+    { name: "Speak English Professionally: In Person, Online & On the Phone sanctioned by Georgia Institute of Technology. (Coursera)", year: "2022" },
+
   ],
 };
 
@@ -47,14 +51,15 @@ export const experience = [
     period: "Oct 2025 – Present",
     type: "Full-time",
     bullets: [
+      
+      "Serve as primary HSE authority: enforce WorkSafe compliance, conduct risk assessments and SSSPs, facilitate daily Toolbox Talks.",
       "Direct end-to-end logistics across multiple high-scale Victorian construction sites, sustaining 100% on-time delivery performance through strategic fleet scheduling.",
       "Lead yard and transport personnel — setting KPIs, coordinating daily operations, and driving a culture of accountability and continuous improvement.",
-      "Serve as primary HSE authority: enforce WorkSafe compliance, conduct risk assessments and SSSPs, facilitate daily Toolbox Talks.",
-      "Implemented Ezicheck digital safety management and fleet-tracking systems, eliminating compliance gaps and reducing admin overhead.",
+      "Implemented Ezicheck digital safety management and fleet-tracking systems, eliminating compliance gaps and reducing admin overhead."
     ],
   },
   {
-    title: "General Yard Worker | Team Leader",
+    title: "General Yard Worker | Team Leader | HSE Lead",
     company: "Abode Scaffolding & Void Protection",
     location: "Ravenhall, VIC",
     period: "Mar 2024 – Sep 2025",

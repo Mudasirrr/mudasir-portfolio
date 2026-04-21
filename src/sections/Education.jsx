@@ -7,7 +7,7 @@ function EduCard({ ed, index }) {
   return (
     <div className={`card reveal ${styles.card}`} ref={ref} style={{ transitionDelay: `${index * 0.12}s` }}>
       <div className={styles.statusRow}>
-        <span className={`${styles.status} ${ed.status === 'In Progress' ? styles.active : styles.done}`}>
+        <span className={`${styles.status} ${ed.status === 'Graduated' ? styles.active : styles.done}`}>
           {ed.status}
         </span>
         <span className={styles.period}>{ed.period}</span>

@@ -22,7 +22,7 @@ export default function Contact() {
             <div className="accent-line" />
             <h2 className="section-title">Let's Work<br />Together</h2>
             <p className={styles.sub}>
-              Open to senior operations, managerial, HSE leadership, and IT/cybersecurity roles in Melbourne and beyond.
+              Open to senior operations, managerial, Health, Safety & Environment (HSE) leadership, and IT/cybersecurity roles in Melbourne and beyond.
             </p>
             <div className={styles.socials}>
               <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className={styles.social}>
