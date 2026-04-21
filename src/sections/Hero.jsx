@@ -11,27 +11,51 @@ export default function Hero() {
       <div className={styles.orb2} aria-hidden="true" />
 
       <div className={`container ${styles.content}`}>
-        <div className={styles.badge}>
-          {personal.available && <span className={styles.dot} />}
-          Available for opportunities · Melbourne, AU
+
+        {/* ── Top row: text LEFT, photo RIGHT ── */}
+        <div className={styles.topRow}>
+
+          {/* LEFT: all text content */}
+          <div className={styles.textCol}>
+            <div className={styles.badge}>
+              {personal.available && <span className={styles.dot} />}
+              Available for opportunities · Melbourne, AU
+            </div>
+
+            <h1 className={styles.name}>{personal.name}</h1>
+
+            <div className={styles.titleRow}>
+              <span className={styles.line} aria-hidden="true" />
+              <p className={styles.title}>{personal.title}</p>
+            </div>
+
+            <p className={styles.tagline}>{personal.tagline}</p>
+
+            <div className={styles.actions}>
+              <a href="#contact" className={styles.btnPrimary}>Get In Touch</a>
+              <a href="#experience" className={styles.btnSecondary}>View Experience</a>
+              <a href={personal.github} target="_blank" rel="noopener noreferrer" className={styles.btnGhost}>GitHub ↗</a>
+            </div>
+          </div>
+
+          {/* RIGHT: profile photo */}
+          <div className={styles.photoCol}>
+            <div className={styles.photoWrap}>
+              {/* Decorative ring */}
+              <div className={styles.photoRing} aria-hidden="true" />
+              {/* Gold corner accent */}
+              <div className={styles.photoAccent} aria-hidden="true" />
+              <img
+                src="/mudasir-portfolio/profile.png"
+                alt="Mudasir Hussain — Operations & Technology Leader"
+                className={styles.photo}
+              />
+            </div>
+          </div>
+
         </div>
 
-        <h1 className={styles.name}>{personal.name}</h1>
-
-        <div className={styles.titleRow}>
-          <span className={styles.line} aria-hidden="true" />
-          <p className={styles.title}>{personal.title}</p>
-        </div>
-
-        <p className={styles.tagline}>{personal.tagline}</p>
-
-        <div className={styles.actions}>
-          <a href="#contact" className={styles.btnPrimary}>Get In Touch</a>
-          <a href="#experience" className={styles.btnSecondary}>View Experience</a>
-          <a href={personal.github} target="_blank" rel="noopener noreferrer" className={styles.btnGhost}>GitHub ↗</a>
-        </div>
-
-        {/* Metric strip */}
+        {/* ── Metric strip below both columns ── */}
         <div className={styles.metrics}>
           {metrics.map(m => (
             <div key={m.label} className={styles.metric}>
@@ -40,6 +64,7 @@ export default function Hero() {
             </div>
           ))}
         </div>
+
       </div>
 
       {/* Scroll indicator */}
