@@ -13,8 +13,9 @@ export const personal = {
 };
 
 export const metrics = [
+  { value: "90%+", label: "Safety Compliance" },
   { value: "30%", label: "Overhead cost reduction" },
-  { value: "100%", label: "On-time delivery rate" },
+  { value: "100%", label: "logistics_On-time delivery rate" },
   { value: "31%", label: "User engagement increase" },
   { value: "6+", label: "Years cross-industry" },
 ];
@@ -112,14 +113,14 @@ export const education = [
     location: "Melbourne, Australia",
     period: "2024 – Mar 2026",
     status: "Graduated",
-    detail: "Specialisation in Cybersecurity and Leadership— network security, digital forensics, and information systems governance.",
+    detail: "Specialisation in Cybersecurity and Leadership — network security, digital forensics, and information systems governance.",
   },
   {
     degree: "Bachelor of Software Engineering",
     institution: "COMSATS University Islamabad",
     location: "Pakistan",
     period: "2017 – 2021",
-    status: "Completed",
+    status: "Graduated",
     detail: "CGPA: 3.30 / 4.0 · Member: Visio Spark Programming Competition · Member: FIT Technology Conference",
   },
 ];
