@@ -11,7 +11,7 @@ export default function About() {
           <span className="section-label">About Me</span>
           <div className="accent-line" />
           <h2 className="section-title">Cross-Domain<br />Leader &amp; IT Specialization</h2>
-          <p className="section-sub">Operations precision. Technical depth. One career.</p>
+          <p className="section-sub">Operations precision. Technical depth. HSE Compliance. One career.</p>
         </div>
         <div className={styles.right}>
           {personal.bio.split('\n\n').map((para, i) => (
