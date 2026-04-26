@@ -4,7 +4,19 @@ export const personal = {
   name: "Mudasir Hussain",
   title: "Operations & Technology Leader",
   tagline: "Where logistics precision meets digital innovation.",
-  bio: `I lead people, processes, and technology — simultaneously. As Yard & Transport Manager and HSE Lead at WMA Scaffolding, I direct end-to-end logistics across multiple Victorian construction sites while enforcing WorkSafe compliance as the primary safety authority.\n\nWhat sets me apart is the rare combination of operational depth and technical breadth. I hold a Bachelor of Software Engineering, graduated as Master of IT in Cybersecurity (VIT, 2026), certified with NEBOSH (UK based) and specialise in the MERN Stack and Ethereum Blockchain. Whether managing a high-throughput yard operation or architecting a smart contract — I bring the same disciplined, results-first mindset.`,
+  bio: `I don't fit neatly into one box — and that's exactly what makes me effective.
+
+I'm a Yard & Transport Manager | HSE Lead at WMA Scaffolding, Melbourne, where I simultaneously oversee multi-site logistics, transport operations, asset control, and safety compliance — while leading the organisation's health, safety & environment function from the front. Dual accountability. One standard: excellence.
+
+My foundation in safety was forged in one of the most demanding environments on the planet. I spent two years as an HSE Officer on Saudi Aramco projects — where zero tolerance isn't a slogan, it's a survival standard. I delivered consistent high-performance results, maintained incident-free operations, and worked within some of the most rigorous compliance frameworks in the global energy industry. That experience didn't just shape my career — it defined how I think about risk, responsibility, and leadership.
+
+I hold a NEBOSH certification (UK-based) in Health & Safety, a Master of Information Technology (Cybersecurity) from Victoria Institute of Technology, Melbourne, and a Bachelor of Software Engineering from COMSATS University Islamabad — alongside a Certified Blockchain Developer credential in the MERN Stack and Ethereum. I bring hands-on technical capability across Microsoft Office, multi-language computer programming, web development, penetration testing, network security, and systems analysis — with tools including Nmap, Wireshark, Burp Suite, and Metasploit.
+
+What this means in practice: I can walk a construction site, assess a live safety risk, optimise a transport schedule, and architect a secure digital system — often in the same week. I lead with structure, act with urgency, and build with long-term thinking.
+
+I'm not just building a career. I'm building the kind of cross-domain expertise that solves problems most professionals can't even see yet.
+
+Open to connecting with leaders in operations, HSE, logistics, cybersecurity, and technology.`,
   location: "Melbourne, VIC, Australia",
   email: "hmudasir714@gmail.com",
   linkedin: "https://linkedin.com/in/mudasirrr",
@@ -14,33 +26,46 @@ export const personal = {
 
 export const metrics = [
   { value: "90%+", label: "Safety Compliance" },
-  { value: "30%", label: "Overhead cost reduction" },
-  { value: "100%", label: "logistics_On-time delivery rate" },
-  { value: "31%", label: "User engagement increase" },
-  { value: "6+", label: "Years cross-industry" },
+  { value: "30%", label: "Overhead Cost Reduction" },
+  { value: "100%", label: "On-Time Delivery Rate" },
+  { value: "31%", label: "User Engagement Increase" },
+  { value: "6+", label: "Years Cross-Industry" },
 ];
 
 export const skills = {
   leadership: [
-    "Operations Management", "Team Leadership", "Logistics & Fleet Management", "Communication Skill",
-    "HSE Leadership", "Risk Assessment", "WorkSafe / Aramco Compliance",
-    "Project Management", "Process Improvement", "Document Control",
+    "Operations Management",
+    "Team Leadership",
+    "Logistics & Fleet Management",
+    "Communication Skills",
+    "HSE Leadership",
+    "Risk Assessment",
+    "WorkSafe / Aramco Compliance",
+    "Project Management",
+    "Process Improvement",
+    "Document Control",
   ],
   technical: [
-    "Window, Linux and Mac OS,  Computer Programming, MERN Stack (MongoDB, Express, React, Node)", "Ethereum & Solidity",
-    "Smart Contracts & DApps", "Cybersecurity & Network Security",
-    "Python", "UML Design", "Git & Version Control", "Microsoft Office Suite",
+    "Windows, Linux & macOS",
+    "Computer Programming (Multi-language)",
+    "MERN Stack (MongoDB, Express, React, Node)",
+    "Ethereum & Solidity",
+    "Smart Contracts & DApps",
+    "Cybersecurity & Network Security",
+    "Python",
+    "UML Design",
+    "Git & Version Control",
+    "Microsoft Office Suite",
   ],
   certifications: [
-    { name: "Licence to perform High Risk Work (Worksafe Vic)", year: "2025" },
-    { name: "NEBOSH IGC (UK based) for Health, Safety and Environment career", year: "2022" },
-    {name:"The Manager's Toolkit: A Practical Guide to Handling People at Work", year: "2022"},
+    { name: "Licence to Perform High Risk Work (WorkSafe VIC)", year: "2025" },
+    { name: "NEBOSH IGC (UK-based) — Health, Safety & Environment", year: "2022" },
+    { name: "The Manager's Toolkit: A Practical Guide to Handling People at Work", year: "2022" },
     { name: "ISO 14001", year: "2022" },
     { name: "Certified Blockchain Developer", year: "2023" },
     { name: "Full-Stack React Specialisation", year: "2022" },
     { name: "Blockchain Specialisation (Coursera)", year: "2022" },
-    { name: "Speak English Professionally: In Person, Online & On the Phone sanctioned by Georgia Institute of Technology. (Coursera)", year: "2022" },
-
+    { name: "Speak English Professionally — Georgia Institute of Technology (Coursera)", year: "2022" },
   ],
 };
 
@@ -50,13 +75,12 @@ export const experience = [
     company: "WMA Scaffolding",
     location: "Maidstone, VIC",
     period: "Oct 2025 – Present",
-    type: "Full-time",
+    type: "Casual Full-time",
     bullets: [
-      
       "Serve as primary HSE authority: enforce WorkSafe compliance, conduct risk assessments and SSSPs, facilitate daily Toolbox Talks.",
       "Direct end-to-end logistics across multiple high-scale Victorian construction sites, sustaining 100% on-time delivery performance through strategic fleet scheduling.",
       "Lead yard and transport personnel — setting KPIs, coordinating daily operations, and driving a culture of accountability and continuous improvement.",
-      "Implemented Ezicheck digital safety management and fleet-tracking systems, eliminating compliance gaps and reducing admin overhead."
+      "Implemented Ezicheck digital safety management and fleet-tracking systems, eliminating compliance gaps and reducing admin overhead.",
     ],
   },
   {
@@ -64,7 +88,7 @@ export const experience = [
     company: "Abode Scaffolding & Void Protection",
     location: "Ravenhall, VIC",
     period: "Mar 2024 – Sep 2025",
-    type: "Full-time",
+    type: "Casual Full-time",
     bullets: [
       "Progressed from yard worker to team leader within months, coordinating multi-site deliveries and sustaining 100% on-time performance.",
       "Directed daily team operations — loading, unloading, inventory control — maintaining a zero-incident safety culture.",
@@ -128,7 +152,8 @@ export const education = [
 export const projects = [
   {
     title: "Blockchain DApp Platform",
-    description: "Decentralised application built on Ethereum using Solidity smart contracts, Web3.js, and React frontend. Implements token transactions and wallet integration.",
+    description:
+      "Decentralised application built on Ethereum using Solidity smart contracts, Web3.js, and React frontend. Implements token transactions and wallet integration.",
     tech: ["Solidity", "Ethereum", "React", "Web3.js", "Node.js"],
     github: "https://github.com/Mudasirrr",
     live: null,
@@ -136,7 +161,8 @@ export const projects = [
   },
   {
     title: "Full-Stack MERN Application",
-    description: "End-to-end web application with MongoDB, Express, React, and Node.js. Features JWT authentication, RESTful API architecture, and responsive UI.",
+    description:
+      "End-to-end web application with MongoDB, Express, React, and Node.js. Features JWT authentication, RESTful API architecture, and responsive UI.",
     tech: ["MongoDB", "Express", "React", "Node.js", "JWT"],
     github: "https://github.com/Mudasirrr",
     live: null,
@@ -144,7 +170,8 @@ export const projects = [
   },
   {
     title: "HSE Digital Management System",
-    description: "Document management and compliance tracking system built to streamline HSE reporting, incident logging, and audit-ready record-keeping workflows.",
+    description:
+      "Document management and compliance tracking system built to streamline HSE reporting, incident logging, and audit-ready record-keeping workflows.",
     tech: ["React", "Node.js", "MongoDB", "Express"],
     github: "https://github.com/Mudasirrr",
     live: null,
